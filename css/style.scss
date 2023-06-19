@@ -1,0 +1,39 @@
+@use "../components/header";
+@use "../pages/handle_table";
+@use "../pages/order_details";
+@use "../pages/setting";
+@use "../pages/login";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-color: #f1f5f9 !important;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+svg {
+  width: 25px;
+}

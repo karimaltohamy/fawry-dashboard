@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fawri Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- boostrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/bootstrap.js"></script>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"
+    />
+  </head>
+  <body>
+    <!-- start header -->
+    <div class="header">
+      <div class="container">
+        <div class="line">
+          <div class="left">
+            <div class="logo">
+              <img src="images/logo-fawry.png" alt="logo" />
+            </div>
+            <div class="menu">
+              <i class="fa-solid fa-grip"></i>
+              <span>Invoicing</span>
+            </div>
+          </div>
+          <div class="info">
+            <a href="login.html" class="user">
+              <span>Welcome</span>
+              <p>invoicingTest@gmail.com</p>
+            </a>
+            <div class="nav_item">
+              <div class="head">
+                <img
+                  class="lang"
+                  src="images/Flag-United-States-of-America.webp"
+                  alt="Flag-United-States-of-America"
+                  loading="lazy"
+                />
+                <span>English</span>
+              </div>
+              <div class="list list1">
+                <div class="item">
+                  <img
+                    src="images/Flag-United-States-of-America.webp"
+                    alt="Flag-United-States-of-America"
+                    loading="lazy"
+                  />
+                  <span>English (UK)</span>
+                </div>
+                <div class="item">
+                  <img src="images/ar.png" alt="ar-img" loading="lazy" />
+                  <span>Arabic (ar)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav_links">
+          <a href="index.html" class="nav_link">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"
+              />
+            </svg>
+
+            <span>Dashboard</span>
+          </a>
+          <a href="requests.html" class="nav_link active">
+            <i class="fa-solid fa-code-pull-request"></i>
+
+            <span>Requests</span>
+          </a>
+          <a href="setting.html" class="nav_link">
+            <i class="fa-solid fa-gear"></i>
+            <span>Settings</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end header -->
+
+    <!-- start main content  -->
+    <div class="main_content">
+      <div class="container">
+        <div class="head_table">
+          <form action="">
+            <div class="input_item">
+              <label for="">Please select a date</label>
+              <input type="date" />
+            </div>
+            <div class="input_item">
+              <label for="">Payment Date </label>
+              <input type="date" />
+            </div>
+            <div class="input_item">
+              <label for="">Payment status</label>
+              <select name="" id="">
+                <option value="">payment</option>
+                <option value="">not pay</option>
+              </select>
+            </div>
+            <button class="btn_submit">Search</button>
+          </form>
+          <div class="info">
+            <button class="btn_export">
+              Export <i class="fa-solid fa-file-arrow-down"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="container_table">
+          <table id="example" class="display" style="width: 100%">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Request Date</th>
+                <th>Payment Date</th>
+                <th>Phone</th>
+                <th>Payment status</th>
+                <th>Internet status</th>
+                <th>Value</th>
+                <th>Activation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a href="details_request.html">1009078003671</a>
+                </td>
+                <td>15-06-2023</td>
+                <td>15-06-2023 11:16PM</td>
+                <td>0100587735</td>
+                <td>
+                  <span class="payment_status notActive">not payment</span>
+                </td>
+                <td>
+                  <span class="internet_status">active</span>
+                </td>
+                <td>167.5</td>
+
+                <td>
+                  <div class="input_switch">
+                    <input type="checkbox" id="switch1" /><label for="switch1"
+                      >Toggle</label
+                    >
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="details_request.html">1009078003671</a></td>
+                <td>15-06-2023</td>
+                <td>15-06-2023 11:16PM</td>
+                <td>0100587735</td>
+                <td>
+                  <span class="payment_status">payment</span>
+                </td>
+                <td>
+                  <span class="internet_status notActive">not active</span>
+                </td>
+                <td>167.5</td>
+
+                <td>
+                  <div class="input_switch">
+                    <input type="checkbox" id="switch2" /><label for="switch2"
+                      >Toggle</label
+                    >
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- end table content  -->
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#example").DataTable({
+          pagingType: "full_numbers",
+          scrollX: true,
+        });
+      });
+    </script>
+  </body>
+</html>

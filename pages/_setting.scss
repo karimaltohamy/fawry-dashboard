@@ -1,0 +1,56 @@
+$main-color: #006c98;
+
+// start form_setting
+.form_setting {
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0px 12px 23px 0px rgba(92, 55, 153, 0.04);
+
+  h4 {
+    font-size: 22px;
+    padding: 8px 20px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+  }
+
+  form {
+    padding: 20px;
+    .inputs {
+      .input_item {
+        margin-bottom: 20px;
+        label {
+          display: block;
+          font-size: 17px;
+          font-weight: 500;
+          margin-bottom: 5px;
+        }
+
+        input,
+        select {
+          width: 100%;
+          border-radius: 0;
+          background-color: #fff;
+          border: 1px solid #dedfe3;
+          color: #5b5e81;
+          padding: 8px 12px;
+          border-radius: 0.5rem;
+          transition: all 0.3s;
+          outline: none;
+
+          &:hover {
+            border: 1px solid $main-color;
+          }
+        }
+      }
+    }
+
+    .btn_update {
+      padding: 8px 25px;
+      background-color: $main-color;
+      color: white;
+      font-weight: 500;
+      border-radius: 6px;
+      border: none;
+    }
+  }
+}
+// end form_setting
