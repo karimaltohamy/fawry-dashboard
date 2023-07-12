@@ -24,7 +24,7 @@
   gap: 20px;
 }
 .header .line .left .logo img {
-  width: 100px;
+  width: 150px;
 }
 .header .line .left .menu {
   display: -webkit-box;
@@ -170,7 +170,7 @@
   gap: 5px;
 }
 .header .nav_links .nav_link:hover, .header .nav_links .nav_link.active {
-  color: #006c98 !important;
+  color: #5842bc !important;
 }
 .header .nav_links .nav_link span {
   font-weight: 500;
@@ -266,11 +266,11 @@
 }
 .main_content .head_table form .input_item input:hover,
 .main_content .head_table form .input_item select:hover {
-  border: 1px solid #006c98;
+  border: 1px solid #5842bc;
 }
 .main_content .head_table form .btn_submit {
   padding: 8px 25px;
-  background-color: #006c98;
+  background-color: #5842bc;
   color: white;
   font-weight: 500;
   border-radius: 6px;
@@ -278,9 +278,9 @@
 }
 .main_content .head_table .info .btn_export {
   padding: 6px 20px;
-  color: #006c98;
+  color: #5842bc;
   background-color: white;
-  border: 1px solid #006c98;
+  border: 1px solid #5842bc;
   font-weight: 500;
   border-radius: 6px;
 }
@@ -339,8 +339,8 @@
   color: rgb(129, 129, 129);
 }
 .main_content .container_table .dataTables_wrapper table tbody td a {
-  color: #006c98 !important;
-  border-bottom: 1px solid #006c98;
+  color: #5842bc !important;
+  border-bottom: 1px solid #5842bc;
 }
 .main_content .container_table .dataTables_wrapper table tbody td .payment_status,
 .main_content .container_table .dataTables_wrapper table tbody td .internet_status {
@@ -425,7 +425,7 @@
   padding: 5px 15px;
   background-color: white;
   border-radius: 7px;
-  color: #006c98 !important;
+  color: #5842bc !important;
   font-weight: 500;
   margin: 0 10px;
 }
@@ -433,17 +433,17 @@
 .main_content .container_table .dataTables_wrapper .dataTables_paginate .next:hover {
   background: none;
   background-color: white !important;
-  color: #006c98 !important;
+  color: #5842bc !important;
   border: none;
 }
 .main_content .container_table .dataTables_wrapper .dataTables_paginate span .paginate_button {
-  color: #006c98 !important;
+  color: #5842bc !important;
   font-weight: 500;
   padding: 5px 15px;
 }
 .main_content .container_table .dataTables_wrapper .dataTables_paginate span .paginate_button.current, .main_content .container_table .dataTables_wrapper .dataTables_paginate span .paginate_button:hover {
   background: none;
-  background-color: #006c98;
+  background-color: #5842bc;
   color: white !important;
   border: none;
   border-radius: 8px;
@@ -508,7 +508,7 @@
 }
 .main_content .btn_republish {
   padding: 7px 20px;
-  background-color: #006c98;
+  background-color: #5842bc;
   color: white;
   font-weight: 500;
   border-radius: 6px;
@@ -741,11 +741,11 @@
 }
 .form_setting form .inputs .input_item input:hover,
 .form_setting form .inputs .input_item select:hover {
-  border: 1px solid #006c98;
+  border: 1px solid #5842bc;
 }
 .form_setting form .btn_update {
   padding: 8px 25px;
-  background-color: #006c98;
+  background-color: #5842bc;
   color: white;
   font-weight: 500;
   border-radius: 6px;
@@ -763,7 +763,7 @@
 }
 .login .line .left {
   width: 60%;
-  background-color: #2f93ba;
+  background-color: #6c5cb3;
 }
 .login .line .left .logo {
   display: -webkit-box;
@@ -776,10 +776,11 @@
   padding: 20px 10px 10px;
 }
 .login .line .left .logo img {
-  width: 50px;
+  width: 170px;
 }
 .login .line .left .logo h1 {
-  font-size: 28px;
+  font-size: 24px;
+  color: white;
 }
 .login .line .left .image {
   text-align: center;
@@ -844,7 +845,7 @@
   padding: 8px 20px;
   width: 100%;
   border: none;
-  background-color: #006c98;
+  background-color: #5842bc;
   color: white;
   border-radius: 8px;
   font-weight: 600;
@@ -866,7 +867,7 @@
     padding: 10px;
   }
   .login .line .left .logo img {
-    width: 30px;
+    width: 130px;
   }
   .login .line .left .logo h1 {
     font-size: 22px;
