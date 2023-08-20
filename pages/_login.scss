@@ -3,14 +3,25 @@ $main-color: #5842bc;
 // start login
 .login {
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   .line {
-    height: 100%;
+    height: 70%;
+    width: 1000px;
     display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px rgb(238 238 238);
 
     .left {
-      width: 60%;
-      background-color: #6c5cb3;
+      width: 50%;
+      background-color: #6657f5;
+      border-radius: 10px;
+      color: white;
 
       .logo {
         display: flex;
@@ -28,12 +39,26 @@ $main-color: #5842bc;
         }
       }
 
+      .text {
+        padding: 20px;
+
+        .title {
+          font-size: 20px;
+          margin-bottom: 5px;
+        }
+
+        .desc {
+          margin-bottom: 0;
+          font-size: 14px;
+        }
+      }
+
       .image {
         text-align: center;
-        height: calc(100vh - 74px);
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 70%;
 
         img {
           width: 60%;
@@ -42,13 +67,15 @@ $main-color: #5842bc;
     }
 
     .right {
-      width: 40%;
+      width: 50%;
       padding: 20px;
       display: flex;
       align-items: center;
       justify-content: center;
 
       form {
+        width: 100%;
+
         .text {
           text-align: center;
           margin-bottom: 30px;
@@ -88,7 +115,7 @@ $main-color: #5842bc;
           padding: 8px 20px;
           width: 100%;
           border: none;
-          background-color: $main-color;
+          background-color: #6657f5;
           color: white;
           border-radius: 8px;
           font-weight: 600;
@@ -101,15 +128,21 @@ $main-color: #5842bc;
 
 @media (max-width: 768px) {
   .login {
+    background-color: #6657f5;
     .line {
       flex-direction: column;
+      gap: 0;
+      height: fit-content;
+      margin: 0 10px;
+      padding: 12px;
+      box-shadow: unset;
 
       .left {
         width: 100%;
-        height: 6%;
+        background-color: transparent;
 
         .logo {
-          padding: 10px;
+          padding: 0;
 
           img {
             width: 130px;
@@ -118,6 +151,10 @@ $main-color: #5842bc;
           h1 {
             font-size: 22px;
           }
+        }
+
+        .text {
+          display: none;
         }
 
         .image {
@@ -163,3 +200,15 @@ $main-color: #5842bc;
   }
 }
 // end login
+
+// start support
+.support {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+
+  img {
+    width: 35px;
+  }
+}
+// end support

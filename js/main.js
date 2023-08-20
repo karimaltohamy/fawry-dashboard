@@ -1,6 +1,10 @@
-const headClick = document.querySelector(".nav_item .head");
-const list = document.querySelector(".nav_item .list");
+const headClick = document.querySelectorAll(".nav_item .head");
+const lists = document.querySelectorAll(".nav_item .list");
 
-headClick.addEventListener("click", () => {
-  list.classList.toggle("active");
+headClick.forEach((ele) => {
+  ele.addEventListener("click", () => {
+    const num = ele.getAttribute("data-num");
+
+    document.querySelector(`.list${num}`).classList.toggle("active");
+  });
 });

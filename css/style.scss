@@ -1,8 +1,9 @@
 @use "../components/header";
+@use "../pages/login";
+@use "../pages/index";
 @use "../pages/handle_table";
 @use "../pages/order_details";
 @use "../pages/setting";
-@use "../pages/login";
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 

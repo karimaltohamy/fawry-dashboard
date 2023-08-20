@@ -1,0 +1,126 @@
+$main-color: #5842bc;
+
+// start bank_account
+.bank_account,
+.bill_balance {
+  margin-bottom: 20px;
+
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .date {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .input_item {
+      label {
+        font-weight: 600;
+      }
+
+      input {
+        background-color: transparent;
+        padding: 5px 10px;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 5px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .boxs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+
+    .box {
+      padding: 30px 20px;
+      background-color: #dfe8fc;
+      border-radius: 8px;
+      text-align: center;
+
+      .icon {
+        margin-bottom: 10px;
+      }
+
+      .type {
+        font-weight: 600;
+      }
+
+      .number {
+        span {
+          font-size: 13px;
+          color: gray;
+        }
+      }
+
+      &:nth-child(2) {
+        background-color: #fef5e5;
+      }
+      &:nth-child(3) {
+        background-color: #d8effb;
+      }
+      &:nth-child(4) {
+        background-color: #fdede8;
+      }
+      &:nth-child(5) {
+        background-color: #d8effb;
+      }
+    }
+  }
+}
+// end bank_account
+
+// start boxs_info
+.boxs_info {
+  margin-bottom: 25px;
+  .boxs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 30px;
+
+    .box {
+      padding: 15px;
+      background-color: white;
+      border: 1px solid #dfe8fc;
+      border-radius: 8px;
+      text-align: center;
+
+      .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #dfe8fc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 8px;
+
+        svg {
+          color: $main-color;
+        }
+      }
+
+      .type {
+        font-size: 14px;
+        color: gray;
+        margin-bottom: 0;
+      }
+
+      .number {
+        font-weight: 600;
+      }
+
+      .balance {
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+// end boxs_info

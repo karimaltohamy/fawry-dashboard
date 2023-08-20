@@ -78,12 +78,12 @@
 
             <span>Home</span>
           </a>
-          <a href="requests.html" class="nav_link active">
+          <a href="requests.html" class="nav_link">
             <i class="fa-solid fa-code-pull-request"></i>
 
             <span>Requests</span>
           </a>
-          <a href="account-statement.html" class="nav_link">
+          <a href="account-statement.html" class="nav_link active">
             <i class="fa-solid fa-file-invoice"></i>
             <span>Account statement</span>
           </a>
@@ -102,19 +102,12 @@
         <div class="head_table">
           <form action="">
             <div class="input_item">
-              <label for="">Please select a date from</label>
+              <label for=""> date of the operation</label>
               <input type="date" />
             </div>
             <div class="input_item">
-              <label for="">Please select a date to</label>
-              <input type="date" />
-            </div>
-            <div class="input_item">
-              <label for="">Payment status</label>
-              <select name="" id="">
-                <option value="">payment</option>
-                <option value="">not pay</option>
-              </select>
+              <label for="">Specified account </label>
+              <input type="number" placeholder="400000345" />
             </div>
             <button class="btn_submit">Search</button>
           </form>
@@ -129,63 +122,24 @@
           <table id="example" class="display" style="width: 100%">
             <thead>
               <tr>
-                <th>ID</th>
-                <th>Request Date</th>
-                <th>Payment Date</th>
-                <th>Phone</th>
-                <th>Payment status</th>
-                <th>Internet status</th>
-                <th>Value</th>
-                <th>Payment type</th>
-                <th>Activation</th>
+                <th>Operation Date</th>
+                <th>Movement</th>
+                <th>Description</th>
+                <th>Debtor</th>
+                <th>Creditor</th>
+                <th>Balance</th>
+                <th>Operation number</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>
-                  <a href="details_request.html">1009078003671</a>
-                </td>
                 <td>15-06-2023</td>
-                <td>15-06-2023 11:16PM</td>
-                <td>0100587735</td>
-                <td>
-                  <span class="payment_status notActive">not payment</span>
-                </td>
-                <td>
-                  <span class="internet_status">active</span>
-                </td>
-                <td>167.5</td>
-                <td>fawri</td>
-
-                <td>
-                  <div class="input_switch">
-                    <input type="checkbox" id="switch1" /><label for="switch1"
-                      >Toggle</label
-                    >
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td><a href="details_request.html">1009078003671</a></td>
-                <td>15-06-2023</td>
-                <td>15-06-2023 11:16PM</td>
-                <td>0100587735</td>
-                <td>
-                  <span class="payment_status">payment</span>
-                </td>
-                <td>
-                  <span class="internet_status notActive">not active</span>
-                </td>
-                <td>167.5</td>
-                <td>paymob</td>
-
-                <td>
-                  <div class="input_switch">
-                    <input type="checkbox" id="switch2" /><label for="switch2"
-                      >Toggle</label
-                    >
-                  </div>
-                </td>
+                <td>Notify Credit</td>
+                <td>Notify_CR</td>
+                <td>1.43</td>
+                <td>4.43</td>
+                <td>9.43</td>
+                <td>2746</td>
               </tr>
             </tbody>
           </table>
@@ -193,7 +147,6 @@
       </div>
     </div>
     <!-- end table content  -->
-
     <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>

@@ -60,6 +60,11 @@ $main-color: #5842bc;
           align-items: center;
           gap: 6px;
 
+          &.user {
+            flex-direction: column;
+            align-items: start;
+          }
+
           .lang {
             width: 20px;
             height: 20px;
@@ -73,8 +78,8 @@ $main-color: #5842bc;
 
         .list {
           position: absolute;
-          top: 40px;
-          right: 0;
+          top: 52px;
+          right: -10px;
           padding: 15px;
           border-radius: 6px;
           box-shadow: 5px 5px 12px rgb(206, 208, 221);
@@ -141,6 +146,16 @@ $main-color: #5842bc;
           }
         }
       }
+
+      .btn_logout {
+        padding: 6px 20px;
+        background-color: transparent;
+        border: 1px solid $main-color;
+        color: $main-color;
+        font-weight: 600;
+        border-radius: 5px;
+        width: 100%;
+      }
     }
   }
 
@@ -195,6 +210,10 @@ $main-color: #5842bc;
       }
 
       .info {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+
         .user {
           span {
             font-size: 14px;
@@ -204,11 +223,18 @@ $main-color: #5842bc;
             font-size: 15px;
           }
         }
+
+        .btn_logout {
+          padding: 3px 15px;
+          font-size: 15px;
+        }
       }
     }
 
     .nav_links {
       justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
 
       .nav_link {
         svg {
