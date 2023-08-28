@@ -6,6 +6,29 @@ $main-color: #5842bc;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../images/integrations-banner-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 20px 10px 10px;
+
+    img {
+      width: 170px;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: white;
+    }
+  }
 
   .line {
     height: 70%;
@@ -15,29 +38,12 @@ $main-color: #5842bc;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 1px 1px 12px rgb(238 238 238);
 
     .left {
       width: 50%;
       background-color: #6657f5;
       border-radius: 10px;
       color: white;
-
-      .logo {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        padding: 20px 10px 10px;
-
-        img {
-          width: 170px;
-        }
-
-        h1 {
-          font-size: 24px;
-          color: white;
-        }
-      }
 
       .text {
         padding: 20px;

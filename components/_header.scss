@@ -52,6 +52,23 @@ $main-color: #5842bc;
         }
       }
 
+      .lang_conetent {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        .lang {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+        }
+
+        span {
+          font-weight: 500;
+        }
+      }
+
       .nav_item {
         position: relative;
         .head {
@@ -145,6 +162,10 @@ $main-color: #5842bc;
             }
           }
         }
+      }
+
+      .email {
+        font-weight: 600;
       }
 
       .btn_logout {
