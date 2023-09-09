@@ -182,8 +182,8 @@
 .header .line .info .btn_logout {
   padding: 6px 20px;
   background-color: transparent;
-  border: 1px solid #5842bc;
-  color: #5842bc;
+  border: 1px solid #248b5f;
+  color: #248b5f;
   font-weight: 600;
   border-radius: 5px;
   width: 100%;
@@ -209,7 +209,7 @@
   gap: 5px;
 }
 .header .nav_links .nav_link:hover, .header .nav_links .nav_link.active {
-  color: #5842bc !important;
+  color: #248b5f !important;
 }
 .header .nav_links .nav_link span {
   font-weight: 500;
@@ -599,7 +599,7 @@
   margin-bottom: 8px;
 }
 .boxs_info .boxs .box .icon svg {
-  color: #5842bc;
+  color: #248b5f;
 }
 .boxs_info .boxs .box .type {
   font-size: 14px;
@@ -662,11 +662,11 @@
 }
 .main_content .head_table form .input_item input:hover,
 .main_content .head_table form .input_item select:hover {
-  border: 1px solid #5842bc;
+  border: 1px solid #248b5f;
 }
 .main_content .head_table form .btn_submit {
   padding: 8px 25px;
-  background-color: #5842bc;
+  background-color: #248b5f;
   color: white;
   font-weight: 500;
   border-radius: 6px;
@@ -674,9 +674,9 @@
 }
 .main_content .head_table .info .btn_export {
   padding: 6px 20px;
-  color: #5842bc;
+  color: #248b5f;
   background-color: white;
-  border: 1px solid #5842bc;
+  border: 1px solid #248b5f;
   font-weight: 500;
   border-radius: 6px;
 }
@@ -759,8 +759,8 @@
   overflow: hidden;
 }
 .main_content .container_table .dataTables_wrapper table tbody td a {
-  color: #5842bc !important;
-  border-bottom: 1px solid #5842bc;
+  color: #248b5f !important;
+  border-bottom: 1px solid #248b5f;
 }
 .main_content .container_table .dataTables_wrapper table tbody td .payment_status,
 .main_content .container_table .dataTables_wrapper table tbody td .internet_status {
@@ -848,7 +848,7 @@
   padding: 5px 15px;
   background-color: white;
   border-radius: 7px;
-  color: #5842bc !important;
+  color: #248b5f !important;
   font-weight: 500;
   margin: 0 10px;
 }
@@ -856,17 +856,17 @@
 .main_content .container_table .dataTables_wrapper .dataTables_paginate .next:hover {
   background: none;
   background-color: white !important;
-  color: #5842bc !important;
+  color: #248b5f !important;
   border: none;
 }
 .main_content .container_table .dataTables_wrapper .dataTables_paginate span .paginate_button {
-  color: #5842bc !important;
+  color: #248b5f !important;
   font-weight: 500;
   padding: 5px 15px;
 }
 .main_content .container_table .dataTables_wrapper .dataTables_paginate span .paginate_button.current, .main_content .container_table .dataTables_wrapper .dataTables_paginate span .paginate_button:hover {
   background: none;
-  background-color: #5842bc;
+  background-color: #248b5f;
   color: white !important;
   border: none;
   border-radius: 8px;
@@ -931,7 +931,7 @@
 }
 .main_content .btn_republish {
   padding: 7px 20px;
-  background-color: #5842bc;
+  background-color: #248b5f;
   color: white;
   font-weight: 500;
   border-radius: 6px;
@@ -1164,11 +1164,11 @@
 }
 .form_setting form .inputs .input_item input:hover,
 .form_setting form .inputs .input_item select:hover {
-  border: 1px solid #5842bc;
+  border: 1px solid #248b5f;
 }
 .form_setting form .btn_update {
   padding: 8px 25px;
-  background-color: #5842bc;
+  background-color: #248b5f;
   color: white;
   font-weight: 500;
   border-radius: 6px;
